@@ -7,7 +7,7 @@ TOKEN = "TOKEN-KEY"
 #APIのURL
 api_url ="https://notify-api.line.me/api/notify"
 
-weather_url ="http://api.openweathermap.org/data/2.5/weather?q=Nara,JP&appid=4bf036962ce63110047e4608532b982d&lang=ja&units=metric"
+weather_url ="" #任意のURL
 
 jsondata = requests.get(weather_url).json()
 
